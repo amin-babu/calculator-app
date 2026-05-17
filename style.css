@@ -20,9 +20,9 @@ body {
   padding: 0.125rem;
 }
 
-button {
+/* button {
   display: inline-block;
-}
+} */
 
 .row {
   display: flex;
