@@ -9,48 +9,45 @@
 </head>
 
 <body>
-  <div class="calculator_body">
-    <table>
-      <tr>
-        <td><input type="text" id="my-result"></td>
-      </tr>
+  <div id="calculator">
+    <div class="row">
+      <input type="text" id="input">
+    </div>
 
-      <tr>
-        <td><button onclick="deleteMe()">C</button></td>
-        <td><button onclick="calculator()">(</button></td>
-        <td><button onclick="calculator()">)</button></td>
-        <td><button onclick="calculator()">X</button></td>
-      </tr>
+    <div class="row">
+      <button onclick="deleteMe()">C</button>
+      <button onclick="calculator()">(</button>
+      <button onclick="calculator()">)</button>
+      <button onclick="calculator()">x</button>
+    </div>
 
-      <tr>
-        <td><button onclick="calculator()">7</button></td>
-        <td><button onclick="calculator()">8</button></td>
-        <td><button onclick="calculator()">9</button></td>
-        <td><button onclick="calculator()">+</button></td>
-      </tr>
+    <div class="row">
+      <button onclick="calculator()">7</button>
+      <button onclick="calculator()">8</button>
+      <button onclick="calculator()">9</button>
+      <button onclick="calculator()">+</button>
+    </div>
 
-      <tr>
-        <td><button onclick="calculator()">4</button></td>
-        <td><button onclick="calculator()">5</button></td>
-        <td><button onclick="calculator()">6</button></td>
-        <td><button onclick="calculator()">-</button></td>
-      </tr>
+    <div class="row">
+      <button onclick="calculator()">4</button>
+      <button onclick="calculator()">5</button>
+      <button onclick="calculator()">6</button>
+      <button onclick="calculator()">-</button>
+    </div>
 
-      <tr>
-        <td><button onclick="calculator()">1</button></td>
-        <td><button onclick="calculator()">2</button></td>
-        <td><button onclick="calculator()">3</button></td>
-        <td><button onclick="calculator()">*</button></td>
-      </tr>
+    <div class="row">
+      <button onclick="calculator()">1</button>
+      <button onclick="calculator()">2</button>
+      <button onclick="calculator()">3</button>
+      <button onclick="calculator()">*</button>
+    </div>
 
-      <tr>
-        <td><button onclick="calculator()">0</button></td>
-        <td><button onclick="calculator()">.</button></td>
-        <td><button onclick="calculator()">/</button></td>
-        <td><button onclick="calculator()">=</button></td>
-      </tr>
-
-    </table>
+    <div class="row">
+      <button onclick="calculator()">0</button>
+      <button onclick="calculator()">.</button>
+      <button onclick="calculator()">/</button>
+      <button onclick="answer()">=</button>
+    </div>
   </div>
   <script src="./script.js"></script>
 </body>
